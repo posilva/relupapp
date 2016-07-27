@@ -1,0 +1,17 @@
+{application, relupapp,
+ [{description, "An OTP application"},
+  {vsn, semver},
+  {registered, []},
+  {mod, { relupapp_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    reluplib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
